@@ -9,11 +9,11 @@
 
 ## Stuff Matt Did
 
-rake db:create
-rake routes
-bundle install
-rails s
-rails g controller session
-rails g resource user email password_digest
-rails g resource transgression user:references description sin_type
-rake db:migrate
+1. rake db:create
+1. rake routes
+1. bundle install
+1. rails s
+1. rails g controller session
+1. rails g resource user email password_digest
+1. rails g resource transgression user:references description sin_type
+1. rake db:migrate
