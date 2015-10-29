@@ -1,0 +1,6 @@
+== README
+
+1. `rails new railsApp -d postgresql`
+1. `rake db:create`
+1. `rake routes`
+1. `rails s`
