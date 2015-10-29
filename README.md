@@ -1,13 +1,13 @@
-== README
+# README
 
-# Stuff Matt Did
+## Stuff I Did
 
 1. `rails new railsApp -d postgresql`
 1. `rake db:create`
 1. `rake routes`
 1. `rails s`
 
-# Stuff Matt Did
+## Stuff Matt Did
 
 rake db:create
 rake routes
