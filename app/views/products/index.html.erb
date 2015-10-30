@@ -1,0 +1,12 @@
+<ul>
+  <% @products.each do |product| %>
+    <li>
+      <a href="<%= edit_product_path(product) %>">
+        <%= product.name %>
+      </a>
+      <br/>
+        <%= product.description %>
+      <%= product %>
+    </li>
+  <% end %>
+</ul>

@@ -1,0 +1,14 @@
+<form action="<%= products_path %>" method="POST">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  <input
+    type="text"
+    name="product[name]"
+    placeholder="Product Name"
+    value=""><br/>
+  <input
+    type="text"
+    name="product[description]"
+    placeholder="Product Description"
+    value=""><br/>
+  <input type="submit" value="Submit">
+</form>
