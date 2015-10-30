@@ -8,9 +8,9 @@ class ProductsController < ApplicationController
   end
 
   def create
-    @transgression = Product.new(product_params)
+    @product = Product.new(product_params)
 
-    if @transgression.save
+    if @product.save
       redirect_to products_path
     else
       render :new
